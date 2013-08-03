@@ -43,6 +43,10 @@ you want to close it.
 
 FAQs
 ====
+**Does this require any frameworks?**
+
+Just <code>QuartzCore</code>. Be sure to include it under the "Link Binary with Libraries" section in your project's Build Phases.
+
 **Why does <code>DetailView</code> even exist? Why can't you use <code>backView</code>?**
 
 Because <code>backView</code> will be upside down when you flip the card over, and I wanted <code>DetailView</code> to take up the size of the screen. In the original purpose the code was written for, 
